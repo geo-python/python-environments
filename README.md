@@ -1,4 +1,4 @@
-# Using mamba to make the Geo-Python environment
+# Using mamba to create the Geo-Python environment
 
 ## Starting steps
 This briefly describes how to install a Python virtual environment for the Geo-Python course.
