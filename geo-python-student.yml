@@ -1,0 +1,30 @@
+name: geo-python-student
+channels:
+  - conda-forge
+  - patrikhlobil
+
+dependencies:
+  # Core Python stuff
+  - python==3.8.10
+  - pip==21.2.4
+
+  # General scientific packages
+  - numpy==1.21.2
+  - pandas==1.3.2
+
+  # Plotting
+  - matplotlib==3.4.3
+  - imageio==2.9.0
+  - patrikhlobil::pandas-bokeh==0.5
+
+  # Code testing
+  - nose==1.3.7
+
+  # Jupyter environment
+  - jupyterlab==3.1.10
+  - jupyterlab-git==0.32.2
+  - jupyterhub==1.4.2
+  - notebook==6.4.3
+  - ipython==7.27.0
+  - ipykernel==6.3.1
+
