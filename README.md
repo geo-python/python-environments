@@ -1,5 +1,6 @@
 # Using mamba to make the Geo-Python environment
 
+## Starting steps
 This briefly describes how to install a Python virtual environment for the Geo-Python course.
 
 1. Install miniconda from https://docs.conda.io/en/latest/miniconda.html
