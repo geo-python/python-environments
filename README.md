@@ -19,8 +19,7 @@ This briefly describes how to install a Python virtual environment for the Geo-P
 ## Creating the environment for students
 1. Create the python environment using mamba
     ```bash
-    mamba create -n geo-python-student
-    mamba env update -n geo-python-student --file geo-python-student.yml
+    mamba env create -f geo-python-student.yml
     ```
 2. Activate the new environment and update JupyterLab
     ```bash
@@ -30,8 +29,7 @@ This briefly describes how to install a Python virtual environment for the Geo-P
 ## Creating the environment for teachers
 1. Create the python environment using mamba
     ```bash
-    mamba create -n geo-python-teacher
-    mamba env update -n geo-python-teacher --file geo-python-teacher.yml
+    mamba env create -f geo-python-teacher.yml
     ```
 2. Activate the new environment and update JupyterLab
     ```bash
