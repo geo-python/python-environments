@@ -35,3 +35,4 @@ dependencies:
   
   # Code formatting
   - black-jupyter==21.9b0
+  - flake8==3.8.4
