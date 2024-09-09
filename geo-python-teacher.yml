@@ -8,7 +8,7 @@ dependencies:
   - pip==23.3
 
   # General scientific packages
-  - numpy==2.1.0
+  - numpy==2.1.1
   - pandas==2.2.2
 
   # Plotting
@@ -26,6 +26,7 @@ dependencies:
   - notebook==7.0.6
   - ipython==8.16.1
   - ipykernel==6.25.2
+  - pexpect==4.9.0
   
   # Teacher tools
   - nbgrader==0.9.1
