@@ -24,6 +24,7 @@ dependencies:
   - ipython==9.4.0
   - ipykernel==6.30.1
   - pexpect==4.9.0
+  - jupyterlab-myst==2.7.0
     
   # Code formatting
   - black-jupyter==26.5.1
