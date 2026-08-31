@@ -3,7 +3,7 @@
 ## Starting steps
 This briefly describes how to install a Python virtual environment for the Geo-Python course.
 
-1. Install mambaforge from [https://docs.conda.io/en/latest/miniconda.html](https://github.com/conda-forge/miniforge#mambaforge).
+1. Install micromamba from [https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
 2. Clone the course Python environments from GitHub
     ```bash
     git clone https://github.com/geo-python/python-environments.git
@@ -13,24 +13,12 @@ This briefly describes how to install a Python virtual environment for the Geo-P
     cd python-environments
     ```
 
-## Creating the environment for students
+## Creating the environment
 1. Create the python environment using mamba
     ```bash
-    mamba env create -f geo-python-student.yml
+    micromamba env create -f geo-python.yml
     ```
 2. Activate the new environment and update JupyterLab
     ```bash
-    conda activate geo-python-student
-    sh postBuild
-    ```
-
-## Creating the environment for teachers
-1. Create the python environment using mamba
-    ```bash
-    mamba env create -f geo-python-teacher.yml
-    ```
-2. Activate the new environment and update JupyterLab
-    ```bash
-    conda activate geo-python-teacher
-    sh postBuild
+    micromamba activate geo-python
     ```
